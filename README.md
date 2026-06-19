@@ -24,6 +24,9 @@ npm run preview
 - 如果配置了 `PROJECTS_API_URL`，会覆盖默认接口地址。
 - 如果接口失败，会自动回退到 seed 数据，避免发布中断。
 - 构建结束会预渲染 `dist/index.html`，并生成 `robots.txt` 与 `sitemap.xml`。
+- 构建结果也会导出到仓库根目录，兼容当前 GitHub Pages 的 `main / root` 分支发布模式。
+
+`index.template.html` 是 Vite 源模板；根目录 `index.html` 是可直接被 GitHub Pages 托管的构建产物。
 
 ## 项目数据接口
 
@@ -52,7 +55,7 @@ npm run preview
 
 ## GitHub Pages
 
-仓库包含 `.github/workflows/pages.yml`，推送到 `main` 或 `master` 后自动构建并发布 `dist/`。
+仓库包含 `.github/workflows/pages.yml`，推送到 `main` 或 `master` 后自动构建并发布 `dist/`。当前仓库也提交了根目录静态产物，因此即使 Pages 仍配置为 `main / root` 也能正常访问。
 
 如果需要接入远程项目接口，在仓库 Settings → Secrets and variables → Actions 中添加：
 

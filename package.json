@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "predev": "node scripts/sync-projects.mjs",
+    "predev": "node scripts/sync-projects.mjs && node scripts/use-template.mjs",
     "sync:projects": "node scripts/sync-projects.mjs",
-    "prebuild": "node scripts/sync-projects.mjs",
-    "build": "npm run build:client && npm run build:ssr && node scripts/prerender.mjs",
+    "prebuild": "node scripts/sync-projects.mjs && node scripts/use-template.mjs",
+    "build": "npm run build:client && npm run build:ssr && node scripts/prerender.mjs && node scripts/export-root.mjs",
     "build:client": "vite build",
     "build:ssr": "vite build --ssr src/entry-server.jsx --outDir .ssr-temp",
     "preview": "vite preview"
