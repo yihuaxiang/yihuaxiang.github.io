@@ -1,0 +1,1216 @@
+{
+  "profile": {
+    "siteUrl": "https://yihuaxiang.github.io/",
+    "siteTitle": "移花香的项目游乐园",
+    "name": "移花香",
+    "handle": "yihuaxiang",
+    "eyebrow": "Personal Project Index",
+    "headline": "把项目、工具和实验集中放在一个入口。",
+    "intro": "这里收纳了我做过的在线工具、小服务、交互实验和长期维护的产品项目。先看精选代表作，再按主题继续探索。",
+    "blogUrl": "https://z.wiki",
+    "githubUrl": "https://github.com/yihuaxiang",
+    "sourceUrl": "https://playground.z.wiki/"
+  },
+  "sections": [
+    {
+      "id": "service-projects",
+      "title": "网站能力 / 小服务",
+      "description": "偏产品化、能直接被别人使用的线上服务和核心站点能力。"
+    },
+    {
+      "id": "ai-projects",
+      "title": "AI / 自动化",
+      "description": "把 AI 能力接进真实产品流程里，强调效率、生成和自动化。"
+    },
+    {
+      "id": "tool-projects",
+      "title": "工具类",
+      "description": "解决具体问题的效率工具，适合快速打开即用。"
+    },
+    {
+      "id": "visual-projects",
+      "title": "可视化 / 交互实验",
+      "description": "更偏前端表达和交互体验的项目，包含实验、演示和创意作品。"
+    },
+    {
+      "id": "history-projects",
+      "title": "历史项目",
+      "description": "时间稍久但仍值得被保留的项目，它们记录了我的探索路径。"
+    }
+  ],
+  "projects": [
+    {
+      "id": "playground-z-wiki-show-headers-index-html",
+      "title": "HTTP 请求头信息查看工具",
+      "url": "https://playground.z.wiki/show-headers/index.html",
+      "description": "实时显示您的 HTTP 请求头信息",
+      "tagline": "实时显示您的 HTTP 请求头信息",
+      "image": "https://y.z.wiki/autoupload/20250402/GoR9/982X290/image.png/webp",
+      "imageAlt": "HTTP 请求头信息查看工具",
+      "badge": "Service",
+      "category": "网站能力 / 小服务",
+      "categoryId": "service-projects",
+      "tags": [
+        "经典项目",
+        "Spring Boot / Web API"
+      ],
+      "featured": false
+    },
+    {
+      "id": "imgbed-cn-img-cloud-page-index-html",
+      "title": "外贸图床",
+      "url": "https://imgbed.cn/img-cloud-page/index.html",
+      "description": "专为外贸电商打造，支持任意格式文件存储，提供全球CDN加速的文件托管服务",
+      "tagline": "专为外贸电商打造，支持任意格式文件存储，提供全球CDN加速的文件托管...",
+      "image": "https://y.z.wiki/autoupload/20250419/lN9F/2638X1534/image.png/webp",
+      "imageAlt": "外贸图床",
+      "badge": "精选项目",
+      "category": "网站能力 / 小服务",
+      "categoryId": "service-projects",
+      "tags": [
+        "在线服务",
+        "React / Spring Boot / OSS"
+      ],
+      "featured": true
+    },
+    {
+      "id": "playground-z-wiki-img-cloud-index-html",
+      "title": "新版敖武的图床",
+      "url": "https://playground.z.wiki/img-cloud/index.html",
+      "description": "敖武的图床, 免费公共图床, 提供图片上传和图片外链服务, 原图保存, 全球CDN加速.",
+      "tagline": "敖武的图床, 免费公共图床, 提供图片上传和图片外链服务, 原图保存...",
+      "image": "https://y.z.wiki/autoupload/20230731/TWLt.2292X3984-image.png/webp",
+      "imageAlt": "新版敖武的图床",
+      "badge": "精选项目",
+      "category": "网站能力 / 小服务",
+      "categoryId": "service-projects",
+      "tags": [
+        "在线服务",
+        "React / Spring Boot / OSS"
+      ],
+      "featured": true
+    },
+    {
+      "id": "z-wiki-misc-tuchuang-html",
+      "title": "敖武的图床",
+      "url": "https://z.wiki/misc/tuchuang.html",
+      "description": "敖武的图床, 免费公共图床, 提供图片上传和图片外链服务, 原图保存, 全球CDN加速.",
+      "tagline": "敖武的图床, 免费公共图床, 提供图片上传和图片外链服务, 原图保存...",
+      "image": "https://y.z.wiki/autoupload/2022-11-17/f8a714111f3e43b491c06032fb89c8b4.72da8598-b1f6-4c89-adf2-d68e7ffe6a7e.png",
+      "imageAlt": "敖武的图床",
+      "badge": "精选项目",
+      "category": "网站能力 / 小服务",
+      "categoryId": "service-projects",
+      "tags": [
+        "经典项目",
+        "React / Spring Boot / OSS"
+      ],
+      "featured": true
+    },
+    {
+      "id": "blog-imgbed-cn",
+      "title": "图床小镇官方博客",
+      "url": "https://blog.imgbed.cn/",
+      "description": "图床小镇官方博客",
+      "tagline": "图床小镇官方博客",
+      "image": "https://img.51shazhu.com/autoupload/fdd/20250829/zdhY/371X136/image.png/webp",
+      "imageAlt": "图床小镇官方博客",
+      "badge": "精选项目",
+      "category": "网站能力 / 小服务",
+      "categoryId": "service-projects",
+      "tags": [
+        "经典项目",
+        "React / Spring Boot / OSS"
+      ],
+      "featured": true
+    },
+    {
+      "id": "playground-z-wiki-search-page",
+      "title": "全文检索",
+      "url": "https://playground.z.wiki/search/page",
+      "description": "基于redis的全文检索",
+      "tagline": "基于redis的全文检索",
+      "image": "https://y.z.wiki/autoupload/20240128/47Rz.932X1604-image.png",
+      "imageAlt": "全文检索",
+      "badge": "Service",
+      "category": "网站能力 / 小服务",
+      "categoryId": "service-projects",
+      "tags": [
+        "在线服务",
+        "Spring Boot / Web API"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-lbs-showip",
+      "title": "IP归属地查询",
+      "url": "https://playground.z.wiki/lbs/showIp",
+      "description": "IP归属地查询",
+      "tagline": "IP归属地查询",
+      "image": "https://y.z.wiki/autoupload/2022-11-17/36ceb63f6af2498db893b3315c2dc413.9a8f9ed6226d4811a1722288c76fd55a.png",
+      "imageAlt": "IP归属地查询",
+      "badge": "Service",
+      "category": "网站能力 / 小服务",
+      "categoryId": "service-projects",
+      "tags": [
+        "在线服务",
+        "Spring Boot / Web API"
+      ],
+      "featured": false
+    },
+    {
+      "id": "z-wiki-misc-qrcode-html",
+      "title": "二维码生成器",
+      "url": "https://z.wiki/misc/qrcode.html",
+      "description": "二维码生成器。",
+      "tagline": "二维码生成器。",
+      "image": "https://y.z.wiki/autoupload/2022-05-02/fe66e093db0244e68cdc95a0b7a76208.image.png",
+      "imageAlt": "二维码生成器",
+      "badge": "Service",
+      "category": "网站能力 / 小服务",
+      "categoryId": "service-projects",
+      "tags": [
+        "在线服务",
+        "Spring Boot / Web API"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-lbs-showcityinfo",
+      "title": "城市信息查询",
+      "url": "https://playground.z.wiki/lbs/showCityInfo?keyword=110000",
+      "description": "城市信息查询，如adcode、citycode。",
+      "tagline": "城市信息查询，如adcode、citycode。",
+      "image": "https://7.z.wiki/autoupload/20221130/nUh9.1030X1164-image.png",
+      "imageAlt": "城市信息查询",
+      "badge": "Service",
+      "category": "网站能力 / 小服务",
+      "categoryId": "service-projects",
+      "tags": [
+        "在线服务",
+        "Spring Boot / Web API"
+      ],
+      "featured": false
+    },
+    {
+      "id": "upload-image-fukit-cn",
+      "title": "图床小镇",
+      "url": "https://upload-image.fukit.cn/",
+      "description": "安全便捷的中文图床服务",
+      "tagline": "安全便捷的中文图床服务",
+      "image": "https://tc-new.z.wiki/autoupload/fdd/20251025/txhO/2562X1826/image.png",
+      "imageAlt": "图床小镇",
+      "badge": "Service",
+      "category": "网站能力 / 小服务",
+      "categoryId": "service-projects",
+      "tags": [
+        "经典项目",
+        "React / Spring Boot / OSS"
+      ],
+      "featured": false
+    },
+    {
+      "id": "gallery-imgbed-cn",
+      "title": "gallery",
+      "url": "https://gallery.imgbed.cn/",
+      "description": "图床小镇 gallery",
+      "tagline": "图床小镇 gallery",
+      "image": "https://tc-new.z.wiki/autoupload/fdd/20260213/SYLl/2342X1398/image.png/webp",
+      "imageAlt": "gallery",
+      "badge": "Service",
+      "category": "网站能力 / 小服务",
+      "categoryId": "service-projects",
+      "tags": [
+        "经典项目",
+        "React / Spring Boot / OSS"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn-qrcode-generator",
+      "title": "二维码生成器",
+      "url": "https://fukit.cn/qrcode-generator",
+      "description": "生成并下载url或文本的QR代码，并自定义背景和前景颜色。",
+      "tagline": "生成并下载url或文本的QR代码，并自定义背景和前景颜色。",
+      "image": "https://y.z.wiki/autoupload/20240405/fNUM.1398X1374-image.png",
+      "imageAlt": "二维码生成器",
+      "badge": "Service",
+      "category": "网站能力 / 小服务",
+      "categoryId": "service-projects",
+      "tags": [
+        "在线服务",
+        "Spring Boot / Web API"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-dom-array-methods-index-html",
+      "title": "DOM & Array 相关 API",
+      "url": "https://playground.z.wiki/dom-array-methods/index.html",
+      "description": "DOM & Array 相关 API",
+      "tagline": "DOM & Array 相关 API",
+      "image": "https://5.z.wiki/autoupload/2022-11-17/2566afa8b1a14e1996b05ba84645b206.image.png",
+      "imageAlt": "DOM & Array 相关 API",
+      "badge": "Service",
+      "category": "网站能力 / 小服务",
+      "categoryId": "service-projects",
+      "tags": [
+        "经典项目",
+        "Spring Boot / Web API"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-lyrics-search-index-html",
+      "title": "歌曲搜索",
+      "url": "https://playground.z.wiki/lyrics-search/index.html",
+      "description": "歌曲搜索",
+      "tagline": "歌曲搜索",
+      "image": "https://5.z.wiki/autoupload/2022-11-17/54bf2dbd4fe44836a222800aaef8111f.image.png",
+      "imageAlt": "歌曲搜索",
+      "badge": "Service",
+      "category": "网站能力 / 小服务",
+      "categoryId": "service-projects",
+      "tags": [
+        "在线服务",
+        "Spring Boot / Web API"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-char-paint-index-html",
+      "title": "字符画",
+      "url": "https://playground.z.wiki/char-paint/index.html",
+      "description": "字符画生成器",
+      "tagline": "字符画生成器",
+      "image": "https://y.z.wiki/autoupload/20231112/wCcy.1162X1130-image.png",
+      "imageAlt": "字符画",
+      "badge": "AI",
+      "category": "AI / 自动化",
+      "categoryId": "ai-projects",
+      "tags": [
+        "经典项目",
+        "AI Workflow / Spring Boot"
+      ],
+      "featured": false
+    },
+    {
+      "id": "ai-portal-z-wiki",
+      "title": "AI 雷达",
+      "url": "https://ai-portal.z.wiki/",
+      "description": "AI 雷达",
+      "tagline": "AI 雷达",
+      "image": "https://backup.fukit.cn/autoupload/fdd/20260319/PDxf/2234X1156/image.png/webp",
+      "imageAlt": "AI 雷达",
+      "badge": "AI",
+      "category": "AI / 自动化",
+      "categoryId": "ai-projects",
+      "tags": [
+        "经典项目",
+        "AI Workflow / Spring Boot"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-baidu-index-html",
+      "title": "帮你百度一下",
+      "url": "https://playground.z.wiki/baidu/index.html",
+      "description": "让我帮你百度一下？So easy！",
+      "tagline": "让我帮你百度一下？So easy！",
+      "image": "https://1.z.wiki/autoupload/20221130/HPPW.980X1618-image.png",
+      "imageAlt": "帮你百度一下",
+      "badge": "AI",
+      "category": "AI / 自动化",
+      "categoryId": "ai-projects",
+      "tags": [
+        "经典项目",
+        "AI Workflow / Spring Boot"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-url-editor",
+      "title": "URL 编辑器",
+      "url": "https://playground.z.wiki/URL-Editor/",
+      "description": "URL 编辑器",
+      "tagline": "URL 编辑器",
+      "image": "https://2.z.wiki/autoupload/20240121/gS6V.1110X2138-image.png",
+      "imageAlt": "URL 编辑器",
+      "badge": "Tool",
+      "category": "工具类",
+      "categoryId": "tool-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn-device-information",
+      "title": "设备信息",
+      "url": "https://fukit.cn/device-information",
+      "description": "获取有关当前设备的信息（屏幕大小、像素比率、用户代理…）",
+      "tagline": "获取有关当前设备的信息（屏幕大小、像素比率、用户代理…）",
+      "image": "https://4.z.wiki/autoupload/20240406/ttPS.1068X2528-image.png",
+      "imageAlt": "设备信息",
+      "badge": "Tool",
+      "category": "工具类",
+      "categoryId": "tool-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn-temperature-converter",
+      "title": "温度转换器",
+      "url": "https://fukit.cn/temperature-converter",
+      "description": "开尔文、摄氏度、华氏度、兰金、德莱尔、牛顿、雷奥穆尔和罗默温度度数转换。",
+      "tagline": "开尔文、摄氏度、华氏度、兰金、德莱尔、牛顿、雷奥穆尔和罗默温度度数转...",
+      "image": "https://9.z.wiki/autoupload/20240405/SP9k.1120X1376-image.png",
+      "imageAlt": "温度转换器",
+      "badge": "Tool",
+      "category": "工具类",
+      "categoryId": "tool-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-exchange-rate-index-html",
+      "title": "汇率计算器",
+      "url": "https://playground.z.wiki/exchange-rate/index.html",
+      "description": "汇率计算器",
+      "tagline": "汇率计算器",
+      "image": "https://9.z.wiki/autoupload/2022-11-17/a221a4c684e14e5799ca0abbab6e3daf.image.png",
+      "imageAlt": "汇率计算器",
+      "badge": "Tool",
+      "category": "工具类",
+      "categoryId": "tool-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-form-validator-index-html",
+      "title": "表单验证",
+      "url": "https://playground.z.wiki/form-validator/index.html",
+      "description": "表单验证",
+      "tagline": "表单验证",
+      "image": "https://0.z.wiki/autoupload/2022-11-17/f97c2b500454408598cabccab0d0d315.image.png",
+      "imageAlt": "表单验证",
+      "badge": "Tool",
+      "category": "工具类",
+      "categoryId": "tool-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-new-year-countdown-index-html",
+      "title": "新年倒计时",
+      "url": "https://playground.z.wiki/new-year-countdown/index.html",
+      "description": "新年倒计时",
+      "tagline": "新年倒计时",
+      "image": "https://y.z.wiki/autoupload/2022-11-17/77b2ffbe9bc44d4c8837de4b0f538c62.a3d63a11036749b68254203dc646e13e.png/webp",
+      "imageAlt": "新年倒计时",
+      "badge": "Visual",
+      "category": "可视化 / 交互实验",
+      "categoryId": "visual-projects",
+      "tags": [
+        "经典项目",
+        "HTML / CSS / JavaScript"
+      ],
+      "featured": false
+    },
+    {
+      "id": "chat-z-wiki-player",
+      "title": "音乐播放器",
+      "url": "https://chat.z.wiki/player",
+      "description": "音乐播放器",
+      "tagline": "音乐播放器",
+      "image": "https://9.z.wiki/autoupload/20221130/6WAo.972X988-image.png",
+      "imageAlt": "音乐播放器",
+      "badge": "Visual",
+      "category": "可视化 / 交互实验",
+      "categoryId": "visual-projects",
+      "tags": [
+        "经典项目",
+        "HTML / CSS / JavaScript"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-music-player-index-html",
+      "title": "音乐播放器",
+      "url": "https://playground.z.wiki/music-player/index.html",
+      "description": "音乐播放器",
+      "tagline": "音乐播放器",
+      "image": "https://5.z.wiki/autoupload/2022-11-17/444b996e0d9c4f1383ad0032ef867b40.c1c0fb406a0641b7933c149318acc533.png",
+      "imageAlt": "音乐播放器",
+      "badge": "Visual",
+      "category": "可视化 / 交互实验",
+      "categoryId": "visual-projects",
+      "tags": [
+        "经典项目",
+        "HTML / CSS / JavaScript"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-custom-video-player-index-html",
+      "title": "自定义视频播放器",
+      "url": "https://playground.z.wiki/custom-video-player/index.html",
+      "description": "自定义视频播放器",
+      "tagline": "自定义视频播放器",
+      "image": "https://y.z.wiki/autoupload/2022-11-17/06f65eb1dbf34f6cb3ac3a8131b3fcf6.8d660416ef1e45efb1c25c103996ee7b.png/webp",
+      "imageAlt": "自定义视频播放器",
+      "badge": "Visual",
+      "category": "可视化 / 交互实验",
+      "categoryId": "visual-projects",
+      "tags": [
+        "经典项目",
+        "HTML / CSS / JavaScript"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-breakout-game-index-html",
+      "title": "打砖块游戏",
+      "url": "https://playground.z.wiki/breakout-game/index.html",
+      "description": "打砖块游戏，需要使用键盘控制",
+      "tagline": "打砖块游戏，需要使用键盘控制",
+      "image": "https://2.z.wiki/autoupload/2022-11-17/e1cf724b3e924ea3b93b09ac238fc2c9.bd952706e350449896183d1ab34795e7.png",
+      "imageAlt": "打砖块游戏",
+      "badge": "Visual",
+      "category": "可视化 / 交互实验",
+      "categoryId": "visual-projects",
+      "tags": [
+        "经典项目",
+        "HTML / CSS / JavaScript"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-infinite-scroll-blog-index-html",
+      "title": "瀑布流",
+      "url": "https://playground.z.wiki/infinite_scroll_blog/index.html",
+      "description": "瀑布流",
+      "tagline": "瀑布流",
+      "image": "https://9.z.wiki/autoupload/2022-11-17/70f2f8d968fc43469f2f7e316e6dc6bf.image.png",
+      "imageAlt": "瀑布流",
+      "badge": "Visual",
+      "category": "可视化 / 交互实验",
+      "categoryId": "visual-projects",
+      "tags": [
+        "经典项目",
+        "HTML / CSS / JavaScript"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-memory-cards-index-html",
+      "title": "内存卡片",
+      "url": "https://playground.z.wiki/memory-cards/index.html",
+      "description": "内存卡片，测测你的记忆能力吧！",
+      "tagline": "内存卡片，测测你的记忆能力吧！",
+      "image": "https://5.z.wiki/autoupload/2022-11-17/8fc9fa6d500c47218d08f28133cf7df8.745a1a5151934a62b98a11949069e393.png",
+      "imageAlt": "内存卡片",
+      "badge": "Visual",
+      "category": "可视化 / 交互实验",
+      "categoryId": "visual-projects",
+      "tags": [
+        "经典项目",
+        "HTML / CSS / JavaScript"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-typing-game-index-html",
+      "title": "打字游戏",
+      "url": "https://playground.z.wiki/typing-game/index.html",
+      "description": "打字游戏",
+      "tagline": "打字游戏",
+      "image": "https://7.z.wiki/autoupload/2022-11-17/c0b0ae24713343f6b2a48b886ebb4bfa.image.png",
+      "imageAlt": "打字游戏",
+      "badge": "Visual",
+      "category": "可视化 / 交互实验",
+      "categoryId": "visual-projects",
+      "tags": [
+        "经典项目",
+        "HTML / CSS / JavaScript"
+      ],
+      "featured": false
+    },
+    {
+      "id": "zwiki1-wordpress-com",
+      "title": "WordPress 博客",
+      "url": "https://zwiki1.wordpress.com",
+      "description": "WordPress 博客",
+      "tagline": "WordPress 博客",
+      "image": "https://y.z.wiki/autoupload/20250503/0JpY/982X668/image.png",
+      "imageAlt": "WordPress 博客",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "snippets-z-wiki",
+      "title": "代码片段收集平台",
+      "url": "https://snippets.z.wiki",
+      "description": "代码片段收集平台",
+      "tagline": "代码片段收集平台",
+      "image": "https://y.z.wiki/autoupload/2022-11-17/fd222403cd3e44f78246bceb00e9290a.7ccc458c6c614711820ee148f1a66c58.image.png",
+      "imageAlt": "代码片段收集平台",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "gif-imgbed-cn-text-gif",
+      "title": "gif 制作器",
+      "url": "https://gif.imgbed.cn/text-gif",
+      "description": "gif 制作器，包括图片 gif、文字 gif",
+      "tagline": "gif 制作器，包括图片 gif、文字 gif",
+      "image": "https://backup.fukit.cn/autoupload/fdd/20260614/R0uF/640X240/%E7%AC%91%E5%88%B0%E7%BC%BA%E6%B0%A7.gif",
+      "imageAlt": "gif 制作器",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "xway-eu-org",
+      "title": "设计师导航网站",
+      "url": "https://xway.eu.org",
+      "description": "设计师导航网站",
+      "tagline": "设计师导航网站",
+      "image": "https://y.z.wiki/autoupload/20241003/0gzt/1360X730/image.png",
+      "imageAlt": "设计师导航网站",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "link-z-wiki-hrmhxdis9n",
+      "title": "敖武主页链接",
+      "url": "https://link.z.wiki/HrmHxDiS9N",
+      "description": "个人主页，聚合多平台链接",
+      "tagline": "个人主页，聚合多平台链接",
+      "image": "https://img.51shazhu.com/autoupload/fdd/20260308/J9F7/1014X1126/image.png/webp",
+      "imageAlt": "敖武主页链接",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "z-wiki-tech-placeholder-html",
+      "title": "占位符",
+      "url": "https://z.wiki/tech/placeholder.html",
+      "description": "占位符-图片占位",
+      "tagline": "占位符-图片占位",
+      "image": "https://y.z.wiki/autoupload/20240228/gz13.416X612-image.png/webp",
+      "imageAlt": "占位符",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-reversal-index-html",
+      "title": "反转棋（黑白棋）",
+      "url": "https://playground.z.wiki/reversal/index.html",
+      "description": "反转棋（黑白棋）",
+      "tagline": "反转棋（黑白棋）",
+      "image": "https://3.z.wiki/autoupload/20240107/YeJL.1556X1010-image.png",
+      "imageAlt": "反转棋（黑白棋）",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-stream",
+      "title": "流式渲染",
+      "url": "https://playground.z.wiki/stream",
+      "description": "流式渲染",
+      "tagline": "流式渲染",
+      "image": "https://y.z.wiki/autoupload/20231030/QU1t.932X1168-image.png",
+      "imageAlt": "流式渲染",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "z-wiki-jsbin",
+      "title": "敖武的实验室",
+      "url": "https://z.wiki/jsbin/?html,output",
+      "description": "在线写代码 在线分享",
+      "tagline": "在线写代码 在线分享",
+      "image": "https://y.z.wiki/autoupload/20230826/ea9O.1602X2716-image.png/webp",
+      "imageAlt": "敖武的实验室",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "z-wiki-tech-css-to-jss-html",
+      "title": "CSS-TO-JSS",
+      "url": "https://z.wiki/tech/css-to-jss.html",
+      "description": "将 CSS 转成 JSS",
+      "tagline": "将 CSS 转成 JSS",
+      "image": "https://3.z.wiki/autoupload/2022-11-20/5e003d2ee06d49fa910cbf017e6a4243.image.png",
+      "imageAlt": "CSS-TO-JSS",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn",
+      "title": "程序员工具箱",
+      "url": "https://fukit.cn/",
+      "description": "程序员工具箱",
+      "tagline": "程序员工具箱",
+      "image": "https://0.z.wiki/autoupload/20240405/Z7Se.2026X3568-image.png",
+      "imageAlt": "程序员工具箱",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-admin-index-html",
+      "title": "管理后台",
+      "url": "https://playground.z.wiki/admin/index.html",
+      "description": "管理后台",
+      "tagline": "管理后台",
+      "image": "https://2.z.wiki/autoupload/20240219/Yyi3.1098X1104-image.png",
+      "imageAlt": "管理后台",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "www-npmjs-com-package-aowu-node-modules-cleaner",
+      "title": "node_modules cleaner",
+      "url": "https://www.npmjs.com/package/aowu-node-modules-cleaner",
+      "description": "node_modules 清理器",
+      "tagline": "node_modules 清理器",
+      "image": "https://0.z.wiki/autoupload/2022-11-17/738ee5c775aa4f238e324eaefd68b2c6.e509d4c9becb4d17895c0443e4a69020.png",
+      "imageAlt": "node_modules cleaner",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "chat-z-wiki",
+      "title": "基于 websocket 的聊天室",
+      "url": "https://chat.z.wiki/",
+      "description": "创建于 14 年的玩具项目",
+      "tagline": "创建于 14 年的玩具项目",
+      "image": "https://0.z.wiki/autoupload/2022-11-17/17bb41c914d14383a0e2b2ec9b7d88c2.4330e8a44c7e4b31ab46bd58c3c71040.png",
+      "imageAlt": "基于 websocket 的聊天室",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-sse",
+      "title": "event-stream",
+      "url": "https://playground.z.wiki/sse",
+      "description": "服务端推送方案",
+      "tagline": "服务端推送方案",
+      "image": "https://7.z.wiki/autoupload/20230705/Vvht.690X1240-image.png",
+      "imageAlt": "event-stream",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn-encryption",
+      "title": "加密/解密文本",
+      "url": "https://fukit.cn/encryption",
+      "description": "使用加密算法（如AES、TripleDES、Rabbit或RC4）加密和解密文本明文。",
+      "tagline": "使用加密算法（如AES、TripleDES、Rabbit或RC4）加...",
+      "image": "https://1.z.wiki/autoupload/20240405/2Ik0.1084X2618-image.png",
+      "imageAlt": "加密/解密文本",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "compress-imgbed-cn",
+      "title": "在线图片压缩",
+      "url": "https://compress.imgbed.cn",
+      "description": "在线图片压缩工具，支持多种格式，本地处理",
+      "tagline": "在线图片压缩工具，支持多种格式，本地处理",
+      "image": "https://backup.fukit.cn/autoupload/fdd/20260411/yiyr/1086X570/image.png/webp",
+      "imageAlt": "在线图片压缩",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn-jwt-parser",
+      "title": "JWT 解析器",
+      "url": "https://fukit.cn/jwt-parser",
+      "description": "解析和解码JSON Web Token（jwt）并显示其内容。",
+      "tagline": "解析和解码JSON Web Token（jwt）并显示其内容。",
+      "image": "https://1.z.wiki/autoupload/20240406/oQbi.1094X1266-image.png",
+      "imageAlt": "JWT 解析器",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn-url-encoder",
+      "title": "编码/解码url格式的字符串",
+      "url": "https://fukit.cn/url-encoder",
+      "description": "编码为url编码格式（也称为“百分比编码”）或从中解码。",
+      "tagline": "编码为url编码格式（也称为“百分比编码”）或从中解码。",
+      "image": "https://6.z.wiki/autoupload/20240406/92Mn.1004X2574-image.png",
+      "imageAlt": "编码/解码url格式的字符串",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn-camera-recorder",
+      "title": "摄像机记录器",
+      "url": "https://fukit.cn/camera-recorder",
+      "description": "从网络摄像头或照相机拍摄照片或录制视频。",
+      "tagline": "从网络摄像头或照相机拍摄照片或录制视频。",
+      "image": "https://1.z.wiki/autoupload/20240405/oQ9P.726X1364-image.png",
+      "imageAlt": "摄像机记录器",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn-json-prettify",
+      "title": "JSON美化和格式化",
+      "url": "https://fukit.cn/json-prettify",
+      "description": "将JSON字符串修饰为友好的可读格式。",
+      "tagline": "将JSON字符串修饰为友好的可读格式。",
+      "image": "https://5.z.wiki/autoupload/20240405/5Vjy.1442X2486-image.png",
+      "imageAlt": "JSON美化和格式化",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn-sql-prettify",
+      "title": "SQL 美化和格式化",
+      "url": "https://fukit.cn/sql-prettify",
+      "description": "在线格式化和美化您的 SQL 查询（它支持各种 SQL 方言）。",
+      "tagline": "在线格式化和美化您的 SQL 查询（它支持各种 SQL 方言）。",
+      "image": "https://6.z.wiki/autoupload/20240405/Klow.1466X2538-image.png",
+      "imageAlt": "SQL 美化和格式化",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn-crontab-generator",
+      "title": "Crontab 表达式生成",
+      "url": "https://fukit.cn/crontab-generator",
+      "description": "验证并生成crontab，并获取cron调度的可读描述。",
+      "tagline": "验证并生成crontab，并获取cron调度的可读描述。",
+      "image": "https://7.z.wiki/autoupload/20240405/JsxC.1924X2604-image.png",
+      "imageAlt": "Crontab 表达式生成",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn-json-diff",
+      "title": "JSON 差异比较",
+      "url": "https://fukit.cn/json-diff",
+      "description": "比较两个JSON对象并获得它们之间的差异。",
+      "tagline": "比较两个JSON对象并获得它们之间的差异。",
+      "image": "https://0.z.wiki/autoupload/20240405/FZJ1.1686X2620-image.png",
+      "imageAlt": "JSON 差异比较",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn-json-diff-2",
+      "title": "JSON 差异比较",
+      "url": "https://fukit.cn/json-diff",
+      "description": "比较两个JSON对象并获得它们之间的差异。",
+      "tagline": "比较两个JSON对象并获得它们之间的差异。",
+      "image": "https://0.z.wiki/autoupload/20240405/FZJ1.1686X2620-image.png",
+      "imageAlt": "JSON 差异比较",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-movie-seat-booking-index-html",
+      "title": "电影片预定",
+      "url": "https://playground.z.wiki/movie-seat-booking/index.html",
+      "description": "来订几张电影片吧！",
+      "tagline": "来订几张电影片吧！",
+      "image": "https://8.z.wiki/autoupload/2022-11-17/c505faa6b2184023829d05b7dea8c4c1.image.png",
+      "imageAlt": "电影片预定",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-expense-tracker-index-html",
+      "title": "账单模拟器",
+      "url": "https://playground.z.wiki/expense-tracker/index.html",
+      "description": "账单模拟器",
+      "tagline": "账单模拟器",
+      "image": "https://y.z.wiki/autoupload/2022-11-17/fcdab4378b194413901ff74471384fdc.image.png/webp",
+      "imageAlt": "账单模拟器",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-hangman-index-html",
+      "title": "猜字谜",
+      "url": "https://playground.z.wiki/hangman/index.html",
+      "description": "猜字谜",
+      "tagline": "猜字谜",
+      "image": "https://6.z.wiki/autoupload/2022-11-17/8cc77421956e4b6eb650db4f53c05a10.image.png",
+      "imageAlt": "猜字谜",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-meal-finder-index-html",
+      "title": "美食搜索",
+      "url": "https://playground.z.wiki/meal-finder/index.html?v=1.1",
+      "description": "美食搜索",
+      "tagline": "美食搜索",
+      "image": "https://9.z.wiki/autoupload/2022-11-17/9a1c9f2af0e34c0c9fffa572417d5e15.image.png",
+      "imageAlt": "美食搜索",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-modal-menu-slider-index-html",
+      "title": "侧栏弹框",
+      "url": "https://playground.z.wiki/modal-menu-slider/index.html",
+      "description": "侧栏弹框",
+      "tagline": "侧栏弹框",
+      "image": "https://2.z.wiki/autoupload/2022-11-17/7cea53393b0b4a149415b3935d3ee064.image.png",
+      "imageAlt": "侧栏弹框",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn-url-parser",
+      "title": "Url分析器",
+      "url": "https://fukit.cn/url-parser",
+      "description": "解析url字符串以获取所有不同的部分（协议、来源、参数、端口、用户名密码…）",
+      "tagline": "解析url字符串以获取所有不同的部分（协议、来源、参数、端口、用户名...",
+      "image": "https://9.z.wiki/autoupload/20240405/iblV.1440X1324-image.png",
+      "imageAlt": "Url分析器",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-relaxer-app-index-html",
+      "title": "轻松一刻",
+      "url": "https://playground.z.wiki/relaxer-app/index.html",
+      "description": "轻松一刻，要跟着节奏呼吸哦",
+      "tagline": "轻松一刻，要跟着节奏呼吸哦",
+      "image": "https://8.z.wiki/autoupload/2022-11-17/3ed56983b8b94189ac5764d7e5b4762a.image.png",
+      "imageAlt": "轻松一刻",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-sortable-list-index-html",
+      "title": "可排序的列表",
+      "url": "https://playground.z.wiki/sortable-list/index.html",
+      "description": "可排序的列表",
+      "tagline": "可排序的列表",
+      "image": "https://4.z.wiki/autoupload/20230916/U25o.1036X1004-image.png",
+      "imageAlt": "可排序的列表",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-speak-number-guess-index-html",
+      "title": "猜数字",
+      "url": "https://playground.z.wiki/speak-number-guess/index.html",
+      "description": "猜数字，二分查找更快哦！",
+      "tagline": "猜数字，二分查找更快哦！",
+      "image": "https://6.z.wiki/autoupload/2022-11-17/4e88a9e1da5445b8976eb07fc5485156.d8471e373278435e9a26e0fde54d3eb5.png",
+      "imageAlt": "猜数字",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-speech-text-reader-index-html",
+      "title": "文字朗读机",
+      "url": "https://playground.z.wiki/speech-text-reader/index.html",
+      "description": "文字朗读机",
+      "tagline": "文字朗读机",
+      "image": "https://3.z.wiki/autoupload/20230917/GSfO.1290X1756-image.png",
+      "imageAlt": "文字朗读机",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "playground-z-wiki-snake-index-html",
+      "title": "贪吃蛇",
+      "url": "https://playground.z.wiki/snake/index.html",
+      "description": "贪吃蛇小游戏",
+      "tagline": "贪吃蛇小游戏",
+      "image": "https://y.z.wiki/autoupload/20230501/lM0Z.688X1120-image.png/webp",
+      "imageAlt": "贪吃蛇",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "z-wiki-jsbin-zipekaruce-4-edit",
+      "title": "grid 布局",
+      "url": "https://z.wiki/jsbin/zipekaruce/4/edit?html,css,output",
+      "description": "grid 布局",
+      "tagline": "grid 布局",
+      "image": "https://3.z.wiki/autoupload/20230831/6wi9.1014X1886-image.png",
+      "imageAlt": "grid 布局",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "fukit-cn-token-generator",
+      "title": "Token 生成器",
+      "url": "https://fukit.cn/token-generator",
+      "description": "使用您想要的字符、大写或小写字母、数字和/或符号生成随机字符串。",
+      "tagline": "使用您想要的字符、大写或小写字母、数字和/或符号生成随机字符串。",
+      "image": "https://7.z.wiki/autoupload/20240405/xKRb.1056X1332-image.png",
+      "imageAlt": "Token 生成器",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    },
+    {
+      "id": "z-wiki-jsbin-filegudapa-3-edit",
+      "title": "React forwardRef",
+      "url": "https://z.wiki/jsbin/filegudapa/3/edit?html,console,output",
+      "description": "React forwardRef",
+      "tagline": "React forwardRef",
+      "image": "https://2.z.wiki/autoupload/20230828/EyJr.284X292-image.png",
+      "imageAlt": "React forwardRef",
+      "badge": "Archive",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目",
+        "Web App / Productivity"
+      ],
+      "featured": false
+    }
+  ]
+}
