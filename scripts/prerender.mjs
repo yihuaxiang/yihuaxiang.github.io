@@ -8,10 +8,6 @@ const ssrDir = path.join(rootDir, '.ssr-temp');
 const indexPath = path.join(distDir, 'index.html');
 const serverEntry = path.join(ssrDir, 'entry-server.js');
 
-function isoDate() {
-  return new Date().toISOString().slice(0, 10);
-}
-
 async function main() {
   const template = await readFile(indexPath, 'utf8');
   const { render } = await import(`${serverEntry}?t=${Date.now()}`);
@@ -28,7 +24,7 @@ async function main() {
   await writeFile(path.join(distDir, 'robots.txt'), 'User-agent: *\nAllow: /\n\nSitemap: https://yihuaxiang.github.io/sitemap.xml\n', 'utf8');
   await writeFile(
     path.join(distDir, 'sitemap.xml'),
-    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url>\n    <loc>https://yihuaxiang.github.io/</loc>\n    <lastmod>${isoDate()}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>1.0</priority>\n  </url>\n</urlset>\n`,
+    '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url>\n    <loc>https://yihuaxiang.github.io/</loc>\n    <changefreq>weekly</changefreq>\n    <priority>1.0</priority>\n  </url>\n</urlset>\n',
     'utf8',
   );
 

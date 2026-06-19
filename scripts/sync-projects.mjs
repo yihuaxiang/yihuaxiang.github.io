@@ -128,6 +128,15 @@ function normalizePayload(payload, fallbackProfile = {}, fallbackSections = cate
         createdAt: project.createdAt || '',
         sortOrder: Number.isFinite(Number(project.sortOrder)) ? Number(project.sortOrder) : 0,
       };
+    })
+    .sort((left, right) => {
+      const sortDiff = right.sortOrder - left.sortOrder;
+      if (sortDiff) return sortDiff;
+
+      const featuredDiff = Number(right.featured) - Number(left.featured);
+      if (featuredDiff) return featuredDiff;
+
+      return String(left.id).localeCompare(String(right.id), 'zh-CN', { numeric: true });
     });
 
   return {

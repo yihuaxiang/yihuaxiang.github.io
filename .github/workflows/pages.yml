@@ -4,9 +4,12 @@ on:
   push:
     branches: [main, master]
   workflow_dispatch:
+  schedule:
+    # Every day at 10:17 Asia/Shanghai.
+    - cron: '17 2 * * *'
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -35,6 +38,18 @@ jobs:
         env:
           PROJECTS_API_URL: https://playground2.z.wiki/api/projects
           PROJECTS_API_TOKEN: ${{ secrets.PROJECTS_API_TOKEN }}
+
+      - name: Commit generated root site if changed
+        run: |
+          git add -A index.html assets robots.txt sitemap.xml src/data/projects.generated.json .nojekyll
+          if git diff --cached --quiet; then
+            echo "No generated site changes to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Refresh generated site"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

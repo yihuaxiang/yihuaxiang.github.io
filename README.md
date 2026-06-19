@@ -57,6 +57,8 @@ npm run preview
 
 仓库包含 `.github/workflows/pages.yml`，推送到 `main` 或 `master` 后自动构建并发布 `dist/`。当前仓库也提交了根目录静态产物，因此即使 Pages 仍配置为 `main / root` 也能正常访问。
 
+工作流会每天北京时间 10:17 定时重新拉取项目接口并构建。如果接口数据导致根目录静态产物变化，Actions 会自动提交 `Refresh generated site` 到当前分支。
+
 如果需要接入远程项目接口，在仓库 Settings → Secrets and variables → Actions 中添加：
 
 - `PROJECTS_API_TOKEN`（可选）
