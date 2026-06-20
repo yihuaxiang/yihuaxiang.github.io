@@ -1299,6 +1299,24 @@
       "featured": false,
       "createdAt": "CURRENT_TIMESTAMP",
       "sortOrder": 0
+    },
+    {
+      "id": "79",
+      "title": "github 镜像站",
+      "url": "https://yihuaxiang.github.io/",
+      "description": "github 镜像站",
+      "tagline": "github 镜像站",
+      "image": "https://backup.fukit.cn/autoupload/fdd/20260619/5MH3/1376X978/image.png/webp",
+      "imageAlt": "github 镜像站",
+      "badge": "经典项目",
+      "category": "历史项目",
+      "categoryId": "history-projects",
+      "tags": [
+        "经典项目"
+      ],
+      "featured": false,
+      "createdAt": "CURRENT_TIMESTAMP",
+      "sortOrder": 0
     }
   ]
 }
